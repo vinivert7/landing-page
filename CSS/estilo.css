@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none ;
+
+
+
+}
+
+
+
+
+
+
+
+
+html{
+
+    font-family: "Ubuntu", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url(/IMG/pexels-freestocks-76942.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(254, 254, 254, 0.611);
+    height: 150px;
+
+}
+
+.logotipo{
+
+    width: 200px;
+    padding: 10px;
+
+
+}
+
+.menu{
+
+    gap: 50px;
+    display: flex;
+
+
+}
+
+.menuitem{
+
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px ;
+
+
+}
+
+.menuitem:hover{
+
+
+    cursor: pointer;
+
+}
+
+#acesse , #inscreva{
+
+
+    background-color: rgba(255, 255, 255, 0.093);
+    border-radius: 10px;
+    border-color: aqua;
+
+
+}
+
+#acesse:hover , #inscreva:hover{
+
+    background-color: rgba(172, 169, 227, 0.581);
+    border-radius:10px ;
+
+
+
+}
+
+.conteudo{
+
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+
+
+
+}
+
+.conteudoprincipal{
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+
+}
+
+.titulo{
+
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+
+.subtitulo{
+
+    margin-top: 30px;
+    font-size: 30px;
+
+
+
+}
+
+.botao{
+
+    margin-top:20px ;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(235, 235, 235, 0.425);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.729);
+
+
+}
+
+.botao:hover{
+
+    background-color: rgba(172, 169, 227, 0.581);
+
+
+
+}
+
